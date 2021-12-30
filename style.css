@@ -1,0 +1,76 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Pushster&display=swap');
+
+.bg {
+  /* The image used */
+  background-image: url("images/pc-bg.png");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  color: white;
+  font-family: 'Pushster', cursive;
+
+  text-align: center;
+}
+
+.margin{
+    height: 20px;
+}
+
+h1{
+    margin-block-start: 0;
+}
+
+.bg a{
+    color: white;
+}
+
+.bg h1, .bg h2{
+    text-align: center;
+}
+
+.bg img[alt="whatsapp"]{
+    width: 40px;
+    position: fixed;
+    right: 100px;
+    top: 500px ;
+    border-radius: 100%;
+}
+
+@media (max-width: 480px) {
+    .bg{
+        background-image: url("images/Hi.png");
+
+        /* Full height */
+        height: 100%; 
+
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        color: greenyellow;
+
+        text-align: center;
+    }
+    .font{
+        font-size: 20px;
+    }
+    .bg img[alt="whatsapp"]{
+        width: 40px;
+        position: fixed;
+        right: 15px;
+        top: 350px ;
+        border-radius: 100%;
+    }
+}
